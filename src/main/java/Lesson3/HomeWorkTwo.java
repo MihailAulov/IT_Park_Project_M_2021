@@ -1,6 +1,6 @@
 package Lesson3;
 
-public class HomeWork2 {
+public class HomeWorkTwo {
     static int calculateFactorial(int n){
         int result = 1;
         for (int i = 1; i <=n; i ++){
