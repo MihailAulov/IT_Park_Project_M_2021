@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson3;
 
 public class HomeWork2 {
     static int calculateFactorial(int n){
@@ -10,6 +10,6 @@ public class HomeWork2 {
     }
 
     public static void main(String[] args){
-        System.out.println(calculateFactorial(5));
+        System.out.println(calculateFactorial(9));
     }
 }
