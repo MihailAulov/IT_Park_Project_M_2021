@@ -9,7 +9,7 @@ public class HomeWorkOne {
             array[i] = Math.random();
         }
 
-        double max = array[0]; // Массив не должен быть пустым
+        double max = array[0];
         double min = array[0];
         double avg = 0;
         for (int i = 0; i < array.length; i++) {
