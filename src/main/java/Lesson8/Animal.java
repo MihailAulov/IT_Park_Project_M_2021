@@ -17,8 +17,7 @@ public class Animal {
 
     }
 
-    private void voice() {
-    }
+
 
 
 }
