@@ -6,7 +6,10 @@ public class Dog extends Root {
         super(vid, nickname, coatColor, age);
     }
 
-    public void voice (){
+    public Dog() {
+        super(voice);
         System.out.println("Собака издаёт звук Гав");
     }
+
+
 }

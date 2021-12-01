@@ -6,7 +6,10 @@ public class Cat extends Root {
         super(vid, nickname, coatColor, age);
     }
 
-    public void voice (){
+    public Cat() {
+        super(voice);
         System.out.println("Кошка издаёт звук Мяу");
     }
+
+
 }

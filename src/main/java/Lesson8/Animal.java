@@ -3,19 +3,21 @@ package Lesson8;
 public class Animal {
 
     public static void main(String[] args) {
-        Root cat = new Cat("Кот", "Лео", "Бежевый", 2);
-        Root dog = new Dog("Собака", "Барон", "Чёрный", 5);
-        Root rabbit = new Rabbit("Кролик", "Малыш", "Белый", 1);
-
-        ((Cat) cat).voice();
-        ((Dog) dog).voice();
-        ((Rabbit) rabbit).voice();
-
-        Root[] animal = new Root[]{cat, dog, rabbit};
+        Cat cat = new Cat("Кот", "Лео", "Бежевый", 2);
+        Dog dog = new Dog("Собака", "Шарик", "Чёрный", 8);
+        Rabbit rabbit = new Rabbit("Кролик", "Малыш", "Белый", 1);
 
 
+        Root[] singer = new Root[3];
+        singer[0] = new Cat();
+        singer[1] = new Dog();
+        singer[2] = new Rabbit();
+        for (int i = 0; i < singer.length; i++)
+            singer[i].voice();
 
+    }
 
+    private void voice() {
     }
 
 

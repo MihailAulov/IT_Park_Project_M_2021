@@ -6,7 +6,8 @@ public class Rabbit extends Root {
         super(vid, nickname, coatColor, age);
     }
 
-    public void voice (){
+    public Rabbit() {
+        super(voice);
         System.out.println("Кролик не издаёт звуков");
     }
 }

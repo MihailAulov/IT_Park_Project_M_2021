@@ -1,6 +1,9 @@
 package Lesson8;
 
-public class Root {
+import java.util.Objects;
+
+abstract class Root {
+    public static boolean voice;
     String vid;
     String nickname;
     String coatColor;
@@ -15,6 +18,9 @@ public class Root {
 
     }
 
+    public Root(boolean voice) {
+    }
+
     @Override
     public String toString() {
         return "Root{" +
@@ -22,9 +28,11 @@ public class Root {
                 ", nickname='" + nickname + '\'' +
                 ", coatColor='" + coatColor + '\'' +
                 ", age=" + age +
-              '}';
+                '}';
+    }
+
+
+    public static void voice() {
     }
 }
-
-
 
