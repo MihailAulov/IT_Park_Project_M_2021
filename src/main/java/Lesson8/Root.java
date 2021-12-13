@@ -31,7 +31,6 @@ abstract class Root {
                 '}';
     }
 
-
     public static void voice() {
     }
 }
