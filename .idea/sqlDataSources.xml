@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DdlMappings">
     <mapping uuid="bfccd6b6-e21c-462e-8b87-0f1685452a2a" name="db@localhost Mapping">
-      <data-sources db="02656da2-9a64-4d30-b387-a6e66e08d7c5" />
+      <data-sources db="02656da2-9a64-4d30-b387-a6e66e08d7c5" ddl="885c2ca9-8286-4283-b866-f4833d2356b4" />
     </mapping>
   </component>
 </project>
